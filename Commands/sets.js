@@ -22,7 +22,7 @@ export const setsCommand = {
 
     const pokeJSON = await getPokeJson(pokemon);
     if (!pokeJSON) {
-      await interaction.reply({ content: 'I\'d help you with that search, but you a coon', ephemeral: true });
+      await interaction.reply({ content: 'API call failed. Check spelling', ephemeral: true });
       return;
     }
     const sets = getTierSetsArray(pokeJSON, usage);

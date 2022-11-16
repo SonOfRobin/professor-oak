@@ -15,7 +15,7 @@ export const pokemonCommand = {
     const pokeJSON = await getPokemon(interaction.options.getString('name').toLowerCase());
 
     if (!pokeJSON) {
-      await interaction.reply({ content: 'I\'d help you with that search, but you a coon', ephemeral: true });
+      await interaction.reply({ content: 'API call failed. Check spelling', ephemeral: true });
       return;
     }
     // console.log(pokeJSON.types.type.name);
