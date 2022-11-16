@@ -1,0 +1,25 @@
+{
+  "name": "professor-oak",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.9.3",
+    "discord.js": "^14.2.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "node-fetch": "^3.2.10",
+    "underscore": "^1.13.4"
+  },
+  "devDependencies": {
+    "eslint": "^8.22.0",
+    "jshint": "^2.13.5"
+  }
+}
